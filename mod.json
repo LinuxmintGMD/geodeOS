@@ -1,0 +1,15 @@
+{
+	"geode": "6.0.0",
+	"gd": {
+		"win": "2.2091",
+		"mac": "2.2091",
+	},
+	"id": "spudmint.geodeos",
+	"name": "geodeOS",
+	"version": "v1.0.0",
+	"developer": "Spudmint",
+	"description": "",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	}
+}
