@@ -2,14 +2,12 @@
 	"geode": "6.0.0",
 	"gd": {
 		"win": "2.2091",
-		"mac": "2.2091",
+		"mac": "2.2091"
 	},
-	"id": "spudmint.geodeos",
-	"name": "geodeOS",
 	"version": "v1.0.0",
+	"id": "strakovic.geodeos",
+	"name": "geodeOS",
 	"developer": "Spudmint",
-	"description": "",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+	"description": "A Linux terminal inside Geometry Dash with geopkg, apt, and dpkg"
 }
+

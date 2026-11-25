@@ -13,12 +13,9 @@ jobs:
         - target: win
         - target: macm1
         - target: macintel
-        - target: ios
-        - target: android32
-        - target: android64
 
     name: Build ${{ matrix.config.target }}
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
 
     steps:
       - uses: actions/checkout@v7
@@ -30,7 +27,7 @@ jobs:
 
   merge:
     name: Merge
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
     needs: ['build']
 
     steps:
